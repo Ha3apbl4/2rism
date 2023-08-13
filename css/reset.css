@@ -1,0 +1,112 @@
+/* Обнулення CSS */
+
+/* Скидання значень по замовчуванню для всіх елементів */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Скидання значень по замовчуванню для списків */
+ul,
+ol {
+	list-style: none;
+}
+
+/* Нормалізація стилів */
+
+/* Корекція відмінностей у рендерінгу між різними браузерами */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* Забезпечення, що елементи <a> виглядають однаково у всіх браузерах */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Корекція відступів для заголовків */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+/* Встановлення розміру шрифту для заголовків */
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+/* Корекція відступів для списків */
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+}
+
+/* Забезпечення однакового відступу для елементів списку */
+li {
+	margin-left: 0;
+}
+
+/* Забезпечення однакового стилю для кнопок */
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+/* Корекція відступів для таблиць */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Корекція відступів для форми */
+input,
+textarea,
+select {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	font-family: inherit;
+}
+
+/* Корекція стилів для картинок */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Забезпечення відсутності стандартних стилів для HTML5-елементів */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+	display: block;
+}
